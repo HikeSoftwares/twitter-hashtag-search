@@ -12,10 +12,10 @@ ini_set('display_errors', 1);
 require_once('twitterApi.php'); // Twitter API
 /* Your Twitter app's credentials */
 $settings = array(
-'oauth_access_token' => "948573251818663937-s4H9DpY6xKO8sn20Cg2ys5fp3RG2Xks",
-'oauth_access_token_secret' => "cdSiZee7xdOXWlWtVu58wzpZbpNAkkohO2JxYeabBxeTH",
-'consumer_key' => "ryHrcoVTNGfJqNpYewc4ym5bX",
-'consumer_secret' => "daR4x7YKYNt5HN7kTIXJsn7EXSJ9OY4ffIovx2454TYZzJW5ha"
+'oauth_access_token' => "***",
+'oauth_access_token_secret' => "***",
+'consumer_key' => "***",
+'consumer_secret' => "***"
 );
 /* Twitter API version 1.1 and the endpoint search */
 $url = 'https://api.twitter.com/1.1/search/tweets.json';
